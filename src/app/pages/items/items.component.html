@@ -1,0 +1,11 @@
+<ngx-data-table
+  *ngIf="list$ | async as list"
+  [tableTitle] = "tableTitle"
+  [tableColumn] = "tableColumn"
+  [currentFilterKey] = "currentFilterKey"
+  [list] = list
+  [editable] = editable
+  (createOne)="onCreateOne()"
+  (openEditDialog)="openEditDialog($event)"
+  (deleteOne)="onDeleteOne($event)"
+></ngx-data-table>

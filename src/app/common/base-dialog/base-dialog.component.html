@@ -1,0 +1,14 @@
+<ng-container *ngIf="!data.template" >
+  <h1 mat-dialog-title>{{ data.title | titlecase }}</h1>
+  <div class="" mat-dialog-content>
+    <p>{{ data.content }}</p>
+  </div>
+  <div fxLayoutAlign="center center" mat-dialog-actions>
+    <button mat-button [mat-dialog-close]="">
+      Nem
+    </button>
+    <button mat-button color="primary" [mat-dialog-close]="data">
+      Igen
+    </button>
+  </div>
+</ng-container>

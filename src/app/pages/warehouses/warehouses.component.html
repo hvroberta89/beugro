@@ -1,0 +1,21 @@
+<ngx-data-table
+  *ngIf="list$ | async as list"
+  [tableTitle] = "tableTitle"
+  [tableColumn] = "tableColumn"
+  [currentFilterKey] = "currentFilterKey"
+  [list] = list
+  [editable] = editable
+  (createOne)="onCreateOne()"
+  (openEditDialog)="openEditDialog($event)"
+  (deleteOne)="onDeleteOne($event)"
+></ngx-data-table>
+<div xLayoutAlign="center center" fxFlexFill>
+  <mat-card>
+    <h1 class="fits" fxFlexFill *ngIf="!fits">
+      Befér
+    </h1>
+    <h1 class="nofits" *ngIf="fits">
+      Nem fér
+    </h1>
+  </mat-card>
+</div>

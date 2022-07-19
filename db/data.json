@@ -1,0 +1,220 @@
+{
+  "users": [
+    {
+      "name": "Test Anna",
+      "email": "testanna@test.com",
+      "password": "testpass",
+      "role": 1,
+      "id": "1"
+    },
+    {
+      "name": "Test Elek",
+      "email": "testelek@test.com",
+      "password": "testpass",
+      "role": 2,
+      "id": "2"
+    }
+  ],
+  "items": [
+    {
+      "name": "Mosógép",
+      "length": 2,
+      "width": 2,
+      "id": "2"
+    },
+    {
+      "name": "Hűtő",
+      "length": 2,
+      "width": 1,
+      "id": "3"
+    },
+    {
+      "name": "Porszívó",
+      "length": 2,
+      "width": 1,
+      "id": "4"
+    },
+    {
+      "name": "Turmix",
+      "length": 2,
+      "width": 1,
+      "id": "5"
+    },
+    {
+      "name": "Televízió",
+      "length": 2,
+      "width": 1,
+      "id": "6"
+    },
+    {
+      "name": "Vasaló",
+      "length": 1,
+      "width": 1,
+      "id": "7"
+    },
+    {
+      "name": "Mosógép",
+      "length": 2,
+      "width": 2,
+      "id": "8"
+    },
+    {
+      "name": "Hűtő",
+      "length": 2,
+      "width": 2,
+      "id": "9"
+    },
+    {
+      "name": "Porszívó",
+      "length": 2,
+      "width": 1,
+      "id": "10"
+    },
+    {
+      "name": "Rádió",
+      "length": 1,
+      "width": 1,
+      "id": "11"
+    },
+    {
+      "name": "Turmix",
+      "length": 1,
+      "width": 1,
+      "id": "12"
+    },
+    {
+      "name": "Televízió",
+      "length": 2,
+      "width": 1,
+      "id": "13"
+    },
+    {
+      "name": "Vasaló",
+      "length": 1,
+      "width": 1,
+      "id": "14"
+    },
+    {
+      "name": "Mosógép",
+      "length": 2,
+      "width": 2,
+      "id": "15"
+    },
+    {
+      "name": "Hűtő",
+      "length": 2,
+      "width": 2,
+      "id": "16"
+    },
+    {
+      "name": "Porszívó",
+      "length": 2,
+      "width": 1,
+      "id": "17"
+    },
+    {
+      "name": "Turmix",
+      "length": 1,
+      "width": 1,
+      "id": "18"
+    },
+    {
+      "name": "Televízió",
+      "length": 2,
+      "width": 1,
+      "id": "19"
+    },
+    {
+      "name": "Vasaló",
+      "length": 1,
+      "width": 1,
+      "id": "20"
+    },
+    {
+      "name": "Mosógép",
+      "length": 2,
+      "width": 2,
+      "id": "21"
+    },
+    {
+      "name": "Hűtő",
+      "length": 2,
+      "width": 2,
+      "id": "22"
+    },
+    {
+      "name": "Porszívó",
+      "length": 2,
+      "width": 1,
+      "id": "23"
+    },
+    {
+      "name": "Turmix",
+      "length": 1,
+      "width": 1,
+      "id": "24"
+    },
+    {
+      "id": "c563950f0a",
+      "name": "",
+      "length": 0,
+      "width": 0
+    }
+  ],
+  "warehouses": [
+    {
+      "address": "1113 Budapest XI. kerület Kondorosi út 3",
+      "width": 4,
+      "length": 5,
+      "id": "1"
+    },
+    {
+      "address": "1113 Budapest XI. kerület Kondorosi út 10",
+      "width": 4,
+      "length": 5,
+      "id": "2"
+    },
+    {
+      "address": "4090 Polgár Hajdú utca 40.",
+      "width": 4,
+      "length": 5,
+      "id": "3"
+    },
+    {
+      "address": "4024 Debrecen Repülőtéri út 12.",
+      "width": 4,
+      "length": 4,
+      "id": "4"
+    },
+    {
+      "address": "2330 Dunaharaszti Raktár utca 8.",
+      "width": 5,
+      "length": 4,
+      "id": "5"
+    },
+    {
+      "address": "4024 Miskolc Repülőtéri út 9.",
+      "width": 3,
+      "length": 3,
+      "id": "7"
+    },
+    {
+      "address": "4024 Debrecen Repülőtéri út 20.",
+      "width": 4,
+      "length": 3,
+      "id": "8"
+    },
+    {
+      "id": "7de88531a6",
+      "address": " 4090 Polgár Hajdú utca 4.",
+      "width": 4,
+      "length": 4
+    },
+    {
+      "id": "a080ce0c00",
+      "address": " 4090 Polgár Hajdú utca 4.",
+      "width": 4,
+      "length": 4
+    }
+  ]
+}

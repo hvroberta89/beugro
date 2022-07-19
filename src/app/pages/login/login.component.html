@@ -1,0 +1,35 @@
+<div fxLayoutAlign="center center" fxFlexFill>
+  <mat-card fxFlex="100" fxFlex.gt-sm="40" class="login mat-elevation-z8">
+    <mat-toolbar color="primary">Bejelentkezés</mat-toolbar>
+    <form [formGroup]="loginForm" (ngSubmit)="onLogin()" fxLayoutAlign="stretch" fxLayout="column" class="login-form">
+      <mat-form-field appearance="fill" class="login-field">
+        <mat-label>Email</mat-label>
+        <input type="email" matInput formControlName="email" placeholder="proba@pelda.com">
+        <mat-error *ngIf="email.hasError('email') && !email.hasError('required')">
+          Hibás formátum
+        </mat-error>
+        <mat-error *ngIf="email.hasError('required')">
+          Mező kitöltése <strong>kötelező</strong>
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="login-field">
+        <mat-label>Jelszó</mat-label>
+        <input [type]="hide ? 'password' : 'text'" matInput formControlName="password">
+        <button mat-icon-button
+          matSuffix
+          (click)="hide = !hide"
+          [attr.aria-label]="'Hide password'"
+          [attr.aria-pressed]="hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+        <mat-error *ngIf="password.hasError('password') && !password.hasError('required')">
+          Minimum 6 karakter
+        </mat-error>
+        <mat-error *ngIf="password.hasError('required')">
+          Mező kitöltése <strong>kötelező</strong>
+        </mat-error>
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit" [disabled]="!loginForm.valid">Bejelentkezés</button>
+    </form>
+  </mat-card>
+</div>

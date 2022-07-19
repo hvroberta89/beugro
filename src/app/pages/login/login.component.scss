@@ -1,0 +1,21 @@
+.login {
+  padding: 10px;
+
+  &-form {
+    padding: 20px;
+  }
+
+  &-field {
+    padding-bottom: 20px;
+  }
+}
+
+.eye {
+  font-size: 125%;
+  cursor: pointer;
+}
+.eye:hover {
+  color: black;
+}
+
+
