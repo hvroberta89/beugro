@@ -20,145 +20,169 @@
       "name": "Mosógép",
       "length": 2,
       "width": 2,
-      "id": "2"
+      "id": "81r88531a7",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Hűtő",
       "length": 2,
       "width": 1,
-      "id": "3"
+      "id": "81r88531a8",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Porszívó",
       "length": 2,
       "width": 1,
-      "id": "4"
+      "id": "81r88531a9",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Turmix",
       "length": 2,
       "width": 1,
-      "id": "5"
+      "id": "81r8853111",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Televízió",
       "length": 2,
       "width": 1,
-      "id": "6"
+      "id": "81r8853113",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Vasaló",
       "length": 1,
       "width": 1,
-      "id": "7"
+      "id": "81r8853112",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Mosógép",
       "length": 2,
       "width": 2,
-      "id": "8"
+      "id": "81r8853114",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Hűtő",
       "length": 2,
       "width": 2,
-      "id": "9"
+      "id": "81r8853115",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Porszívó",
       "length": 2,
       "width": 1,
-      "id": "10"
+      "id": "81r8853116",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Rádió",
       "length": 1,
       "width": 1,
-      "id": "11"
+      "id": "11",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Turmix",
       "length": 1,
       "width": 1,
-      "id": "12"
+      "id": "81r8853117",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Televízió",
       "length": 2,
       "width": 1,
-      "id": "13"
+      "id": "81r8853118",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Vasaló",
       "length": 1,
       "width": 1,
-      "id": "14"
+      "id": "14",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Mosógép",
       "length": 2,
       "width": 2,
-      "id": "15"
+      "id": "81r8853119",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Hűtő",
       "length": 2,
       "width": 2,
-      "id": "16"
+      "id": "82r8853118",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Porszívó",
       "length": 2,
       "width": 1,
-      "id": "17"
+      "id": "17",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Turmix",
       "length": 1,
       "width": 1,
-      "id": "18"
+      "id": "82r8853117",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Televízió",
       "length": 2,
       "width": 1,
-      "id": "19"
+      "id": "82r8853116",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Vasaló",
       "length": 1,
       "width": 1,
-      "id": "20"
+      "id": "82r8853115",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Mosógép",
       "length": 2,
       "width": 2,
-      "id": "21"
+      "id": "82r8853114",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Hűtő",
       "length": 2,
       "width": 2,
-      "id": "22"
+      "id": "82r8853113",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
       "name": "Porszívó",
       "length": 2,
       "width": 1,
-      "id": "23"
+      "id": "82r8853112",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
-      "name": "Turmix",
+      "name": "c563950f0a",
       "length": 1,
       "width": 1,
-      "id": "24"
+      "id": "82r8853111",
+      "createDate": "2022-07-19T07:49:15.586Z"
     },
     {
-      "id": "c563950f0a",
-      "name": "",
-      "length": 0,
-      "width": 0
+      "id": "85ce742f67",
+      "name": "Porszívó",
+      "length": 1,
+      "width": 2,
+      "createDate": "2022-07-19T07:49:15.586Z"
     }
   ],
   "warehouses": [

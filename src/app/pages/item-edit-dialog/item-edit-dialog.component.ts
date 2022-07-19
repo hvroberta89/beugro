@@ -44,6 +44,7 @@ export class ItemEditDialogComponent implements OnInit {
     this.data.width = this.dataForm.value.width;
     if (this.data.id == "") {
       this.data.id = cryptoRandomString({ length: 10 });
+      this.data.createDate = new Date(Date.now());
       this.itemService.create(this.data as Item).subscribe({
         next: () => this.dialogRef.close(this.data),
         error: err => console.error(err)
