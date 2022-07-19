@@ -6,6 +6,7 @@ import { Injectable } from '@angular/core';
 import { User } from '../models/user';
 import cryptoRandomString from 'crypto-random-string';
 import { BehaviorSubject } from 'rxjs';
+import { MessageService } from './message.service';
 
 export interface IAuthModel {
   success: boolean
@@ -36,7 +37,8 @@ export class AuthService {
 
   constructor(
     private userService: UserService,
-    private router: Router
+    private router: Router,
+    private messageService: MessageService,
   ) {
     const loginInfo = sessionStorage.getItem('login');
     if (loginInfo) {
@@ -71,9 +73,12 @@ export class AuthService {
 
             sessionStorage.setItem('login', JSON.stringify(this.authData));
             this.user$.next(item);
-            this.access_token$.next( cryptoRandomString({length: 20}));
+            this.access_token$.next(cryptoRandomString({length: 20}));
           }
         })
+        if ( this.authData.success==false) {
+          this.messageService.openSnackBar( 3000, "Hibás email vagy jelszó" );
+        }
       }
     })
   }
